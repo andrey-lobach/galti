@@ -18,53 +18,104 @@
   <title>Клуб "Галти"</title>
   <link rel="shortcut icon" href="img/title.png" />
 </head>
+
 <body>
-<header>
-  <div>
-    <h1>клуб "ГалТи"</h1>
-    <h3>оздоровительная гимнастика<br> для детей</h3>
-    <h5>ЛОВКОСТЬ. БЫСТРОТА. РЕАКЦИЯ</h5>
-  </div>
+
+  <header>
+    <div>
+      <h1>клуб "ГалТи"</h1>
+      <h3>оздоровительная гимнастика<br> для детей</h3>
+      <h5>ЛОВКОСТЬ. БЫСТРОТА. РЕАКЦИЯ</h5>
+    </div>
+  </header><!-- header -->
+
+  <nav>
+    <a href="#">
+      <button class="leftButton" 
+              style="background: linear-gradient(to top, rgb(165,212,0) 40%, rgb(196,233,65) 60%); 
+              color:white;">ГЛАВНАЯ
+      </button>
+    </a>
+    <a href="#"><button>ТРЕНИРОВКИ</button></a>
+    <a href="#"><button>О НАС</button></a>
+    <a href="#"><button class="rightButton">КОНТАКТЫ</button></a>
+  </nav><!-- nav -->
+
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="img/1.jpg" alt="">
+        <div class="carousel-caption"></div>
+      </div>
+
+      <div class="item">
+        <img src="img/2.jpg" alt="...">
+        <div class="carousel-caption"></div>
+      </div>
+      <div class="item">
+        <img src="img/3.jpg" alt="...">
+        <div class="carousel-caption"></div>
+      </div>
+      <div class="item">
+        <img src="img/4.jpg" alt="...">
+        <div class="carousel-caption"></div>
+      </div>
+      <div class="item">
+        <img src="img/5.jpg" alt="...">
+        <div class="carousel-caption"></div>
+      </div>
+    </div>
+  </div><!-- ./carousel slide -->
+
+  <div class="content">
+
+  </div><!-- ./content -->
+
+  <footer>
+    <div class="info">
+      <h5>ВРЕМЯ РАБОТЫ</h5>
+        <p>
+          ПОНЕДЕЛЬНИК — ПЯТНИЦА<br>
+          17:00–21:00<br>
+          ​СУББОТА — ВОСКРЕСЕНЬЕ<br>
+          зависит от формирования групп​
+        </p>
+    </div>
+    <div class="info">
+      <h5>АДРЕС</h5>
+        <p>
+          Минск, Беларусь<br> ул. Алибегова, 12 б, ком.20
+        </p>
+
+        <a href="tel:80333883454">
+            <p>Тел.: +375 (33) 388 34 54, Андрей</p>
+        </a>
+        <a href="tel:80296306933">
+          <p>+375 (29) 630 69 33, Дмитрий</p>
+        </a>
+    </div>
+
+    <div class="info">
+      <h5>СХЕМА ПРОЕЗДА</h5>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2352.30355082211!2d27.481322915263824!3d53.87303124283133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbda9e3da5472f%3A0x5f4e03bc215e8176!2z0YPQu9C40YbQsCDQkNC70LjQsdC10LPQvtCy0LAgMTIsINCc0LjQvdGB0LosINCR0LXQu9Cw0YDRg9GB0Yw!5e0!3m2!1sru!2sus!4v1501058424077" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+  </footer><!-- footer -->
 
 
-
-</header>
-<div class="navigation">
-  <a href="#"><button class="leftButton" style="background: linear-gradient(to top, rgb(165,212,0) 40%, rgb(196,233,65) 60%); color:white;">ГЛАВНАЯ</button></a>
-  <a href="#"><button>ТРЕНИРОВКИ</button></a>
-  <a href="#"><button>О НАС</button></a>
-  <a href="#"><button class="rightButton">КОНТАКТЫ</button></a>
-</div>
-
-<div class="content">
-
-</div>
-<footer>
-<div>
-  <div class="info">
-  <h5>ВРЕМЯ РАБОТЫ</h5>
-  <p>ПОНЕДЕЛЬНИК — ПЯТНИЦА<br>
-    17:00–21:00<br>
-    ​СУББОТА — ВОСКРЕСЕНЬЕ<br>
-    зависит от формирования групп​</p>
-  </div>
-  <div class="info">
-    <h5>АДРЕС</h5>
-    <p>Минск, Беларусь<br>
-      ул. Алибегова, 12 б, ком.20
-
-      <a href="tel:80333883454"> <p>Тел.: +375 (33) 388 34 54, Андрей</p></a>
-      <a href="tel:80296306933"> <p>+375 (29) 630 69 33, Дмитрий</p></a>
-  </div>
-  <div class="info">
-    <h5>СХЕМА ПРОЕЗДА</h5>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2352.30355082211!2d27.481322915263824!3d53.87303124283133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbda9e3da5472f%3A0x5f4e03bc215e8176!2z0YPQu9C40YbQsCDQkNC70LjQsdC10LPQvtCy0LAgMTIsINCc0LjQvdGB0LosINCR0LXQu9Cw0YDRg9GB0Yw!5e0!3m2!1sru!2sus!4v1501058424077" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-  </div>
-</div>
-</footer>
   <!-- jQuery -->
   <script src="js/jquery.min.js"></script>
   <!-- Bootstrap -->
   <script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>  
 </body>
+
 </html>
