@@ -87,3 +87,10 @@ nav button:hover {
   font-size:15px;
   font-weight:bold;
 }
+.block{
+  margin-top:30px;
+  height:435px;
+  width:325px;
+  border-width:10px;
+  border-color:rgb(239,239,239);
+}
