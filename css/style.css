@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script&subset=cyrillic');
 html {
   margin: 0;
   padding: 0;
@@ -11,7 +12,7 @@ body {
 header {
   align-self: center;
   background: url("../img/header.png");
-  padding-bottom: 180px;
+  padding-bottom: 170px;
   color: rgb(4,65,74);
   background-repeat: no-repeat;
   background-position: center;
@@ -21,9 +22,18 @@ header div {
 }
 header h1 {
   margin-top: 0;
+  font-family:'marck script';
+  font-size:100px;
+  font-weight:bold;
+}
+header h3{
+  font-family:'marck script';
+  font-size:35px;
 }
 h5 {
   color: rgb(242,24,144);
+  font-size:12px;
+  padding-top:10px;
 }
 nav button {
   width: 245px;
@@ -34,10 +44,13 @@ nav button {
   margin-left: 0px;
   border:none;
   font-weight: bold;
+  text-decoration: none;
+  font-family:'Arial';
 }
 nav button:hover {
   background: linear-gradient(to top, rgb(165,212,0) 40%, rgb(196,233,65) 60%);
   color:white;
+  text-decoration: none;
 }
 .leftButton {
   border-radius: 0px 0px 0px 10px;
@@ -68,4 +81,9 @@ nav button:hover {
   width: 260px;
   height: 100px;
   text-align: left;
+  font-weight:bold;
+}
+.info h5{
+  font-size:15px;
+  font-weight:bold;
 }
