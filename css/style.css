@@ -69,42 +69,46 @@ header .header-right .phone-text {
 
 
 /*====================nav====================*/
-nav{
-  width:1080px;
-  margin:auto;
+nav {
+  width: 1080px;
+  margin: auto;
 }
 nav button {
-  margin:0;
-  width: 267px;
+  margin: 0 -2px 0 -2px;
+  border: none;
+  width: 271px;
   height: 45px;
   background: linear-gradient(to top, rgb(240,240,240) 40%, rgb(255,255,255) 60%);
-  font-size: 10px;
-  margin-left: 0px;
-  border:none;
 }
-nav a{
+nav button a {
+  font-family: "Courier New";
+  font-size: 15px;
   font-weight: bold;
+  color: #000;
+
+  transition: 1s;
+}
+.left-button {
+  border-radius: 3px 0px 0px 3px;
+}
+.main-button {
+background: linear-gradient(to top, rgb(165,212,0) 40%, rgb(196,233,65) 60%);
+}
+.main-button a {
+  color: #fff;
   text-decoration: none;
-  font-family: 'Arial';
-  color:black;
+}
+.rightButton {
+  border-radius: 0px 3px 3px 0px;
 }
 nav button:hover {
   background: linear-gradient(to top, rgb(165,212,0) 40%, rgb(196,233,65) 60%);
-  color:white;      /*не работает*/
-  font-color:white; /*не работает*/
 }
-/*
-nav a:hover{
-  color:white;
+nav button a:hover {
   text-decoration: none;
-}*/
+  color: #fff;
+}
 
-.leftButton {
-  border-radius: 0px 0px 0px 10px;
-}
-.rightButton {
-  border-radius: 0px 0px 10px 0px;
-}
 
 
 /*====================slider====================*/
@@ -134,9 +138,6 @@ nav a:hover{
 
 
 
-/*currentButton{
-  background: linear-gradient(to top, rgb(165,212,0) 40%, rgb(196,233,65) 60%);
-}*/
 .info {
   display:inline-block;
   width: 260px;
