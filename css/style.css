@@ -80,7 +80,7 @@ nav button {
   height: 45px;
   background: linear-gradient(to top, rgb(240,240,240) 40%, rgb(255,255,255) 60%);
 }
-nav button a {
+nav button  {
   font-family: "Courier New";
   font-size: 15px;
   font-weight: bold;
@@ -92,6 +92,7 @@ nav button a {
 }
 .main-button {
 background: linear-gradient(to top, rgb(165,212,0) 40%, rgb(196,233,65) 60%);
+  color: #fff;
 }
 .main-button a {
   color: #fff;
@@ -102,11 +103,10 @@ background: linear-gradient(to top, rgb(165,212,0) 40%, rgb(196,233,65) 60%);
 }
 nav button:hover {
   background: linear-gradient(to top, rgb(165,212,0) 40%, rgb(196,233,65) 60%);
-}
-nav button a:hover {
   text-decoration: none;
   color: #fff;
 }
+
 
 
 
