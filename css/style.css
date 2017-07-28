@@ -61,10 +61,27 @@ nav button:hover {
   border-radius: 0px 0px 10px 0px;
 }
 #carousel-example-generic {
-  border-radius: 10px;
-  width: 1000px;
-  height: 760px;
   margin: auto;
+  max-width: 1080px;
+}
+.carousel-inner img {
+  margin: auto;
+}
+#carousel-example-generic .slide-block {
+ position: absolute;
+ bottom: -2px;
+ left: -2px;
+}
+#carousel-example-generic .slide-block span p{
+  background: url(../img/slide-block.png);
+  margin: 0;
+  font-family: "Courier New";
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
 }
 
 /*currentButton{
