@@ -86,7 +86,6 @@ nav button a {
   font-weight: bold;
   color: #000;
 
-  transition: 1s;
 }
 .left-button {
   border-radius: 3px 0px 0px 3px;
@@ -137,11 +136,14 @@ nav button a:hover {
 }
 
 
+.footInfo{
+  width:1080px;
+  margin:auto;
 
+}
 .info {
   display:inline-block;
-  width: 260px;
-  height: 130px;
+  width: 340px;
   margin-top:0px;
   text-align: left;
   font-weight:bold;
@@ -152,8 +154,10 @@ nav button a:hover {
   color: rgb(242,24,144);
 }
 .content{
-  max-width:1080px;
+  width:1080px;
   margin-top:30px;
+  margin:auto;
+  height:560px;
 }
 .content button{
   background-color:rgb(176,226,0);
