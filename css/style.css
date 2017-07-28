@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Marck+Script&subset=cyrillic');
 @import url('https://fonts.googleapis.com/css?family=Droid+Serif');
+
 html {
   margin: 0;
   padding: 0;
@@ -62,14 +63,8 @@ nav button:hover {
 #carousel-example-generic {
   border-radius: 10px;
   width: 1000px;
-  height: auto;
+  height: 760px;
   margin: auto;
-}
-#carousel-example-generic > .carousel-inner img {
-  margin: auto;
-}
-#carousel-example-generic > .carousel-indicators {
-  margin-bottom: -20px;
 }
 
 /*currentButton{
