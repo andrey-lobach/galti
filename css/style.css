@@ -69,23 +69,36 @@ header .header-right .phone-text {
 
 
 /*====================nav====================*/
+nav{
+  width:1080px;
+  margin:auto;
+}
 nav button {
-  width: 245px;
+  margin:0;
+  width: 267px;
   height: 45px;
   background: linear-gradient(to top, rgb(240,240,240) 40%, rgb(255,255,255) 60%);
-  color: black;
   font-size: 10px;
   margin-left: 0px;
   border:none;
+}
+nav a{
   font-weight: bold;
   text-decoration: none;
   font-family: 'Arial';
+  color:black;
 }
 nav button:hover {
   background: linear-gradient(to top, rgb(165,212,0) 40%, rgb(196,233,65) 60%);
+  color:white;      /*не работает*/
+  font-color:white; /*не работает*/
+}
+/*
+nav a:hover{
   color:white;
   text-decoration: none;
-}
+}*/
+
 .leftButton {
   border-radius: 0px 0px 0px 10px;
 }
@@ -127,7 +140,7 @@ nav button:hover {
 .info {
   display:inline-block;
   width: 260px;
-  height: 260px;
+  height: 130px;
   margin-top:0px;
   text-align: left;
   font-weight:bold;
@@ -135,6 +148,7 @@ nav button:hover {
 .info h5{
   font-size:15px;
   font-weight:bold;
+  color: rgb(242,24,144);
 }
 .content{
   max-width:1080px;
