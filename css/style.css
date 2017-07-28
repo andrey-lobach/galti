@@ -30,6 +30,9 @@ header .header-left .main-text {
   font-size: 60px;
   font-weight: 600;
 }
+header .header-left .main-text span {
+  letter-spacing: 8px;
+}
 header .header-left .main-text a {
   text-decoration: none;
   color: #000;
