@@ -37,6 +37,9 @@ h5 {
   font-size:12px;
   padding-top:10px;
 }
+
+
+/*====================nav====================*/
 nav button {
   width: 245px;
   height: 45px;
@@ -60,6 +63,9 @@ nav button:hover {
 .rightButton {
   border-radius: 0px 0px 10px 0px;
 }
+
+
+/*====================slider====================*/
 #carousel-example-generic {
   margin: auto;
   max-width: 1080px;
@@ -84,12 +90,11 @@ nav button:hover {
   padding: 5px 5px 5px 5px;
 }
 
+
+
 /*currentButton{
   background: linear-gradient(to top, rgb(165,212,0) 40%, rgb(196,233,65) 60%);
 }*/
-.info {
-
-}
 .info {
   display:inline-block;
   width: 260px;
