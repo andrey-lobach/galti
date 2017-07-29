@@ -143,12 +143,12 @@ nav button:hover {
 
 
 /*====================article====================*/
+/*LEFT*/
 article {
   width: 1080px;
-  height: 800px;
+  height: 510px;
   margin: auto;
-  margin-top: 20px;  
-  background-color: #949494;
+  margin-top: 20px;
   text-align: left;
 }
 article div {
@@ -179,7 +179,9 @@ article .left-block span .pink {
   font-weight: 500;
   color: #fff;
 }
-article .left-block span img {
+article .left-block span img,
+article .center-block span img, 
+article .right-block span img {
   position: absolute;
   margin-top: -10px; 
 }
@@ -192,6 +194,7 @@ article .left-block span .green {
   font-size: 25px;
   margin-left: 10px;
   margin-top: -10px;
+  padding-top: 3px;
   transition: 1s;
 }
 article .left-block span a {
@@ -202,8 +205,112 @@ article .left-block span .green:hover {
   background-color: #000;
   color: #B0E200;
 }
-
-
+/*CENTER*/
+article .center-block {
+  position: absolute;
+  margin-left: 360px;
+  margin-top: -398px;
+  border: 10px solid #ccc;
+  border-radius: 0 0 20px 0;
+  outline-offset: -10px; 
+  width: 280px;
+  height: 435px;
+  background: url(../img/center-block.jpg);
+}
+article .center-block span{
+  position: absolute;
+  margin-top: 345px;
+  margin-left: -10px;  
+  width: 280px;
+}
+article .center-block span .pink {
+  text-align: center;
+  background: url(../img/slide-block.png);
+  font-family: "Courier New";
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+}
+article .center-block span .green {
+  height: 38px;
+  text-align: center;
+  background-color: #B0E200;
+  border-radius: 0 0 20px 0;
+  font-family: "Courier New";
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: -10px;
+  padding-top: 5px;
+  transition: 1s;
+}
+article .center-block span a {
+  text-decoration: none;
+  color: #000;
+}
+article .center-block span .green:hover {
+  background-color: #000;
+  color: #B0E200;
+}
+/*RIGHT*/
+article .right-block {
+  position: absolute;
+  margin-left: 290px;
+  margin-top: 5px;
+  border: 10px solid #ccc;
+  border-radius: 0 0 20px 0;
+  outline-offset: -10px; 
+  width: 430px;
+  height: 500px;
+  background-color: #B0E200;
+}
+article .right-block span{
+  position: absolute;
+  margin-top: 57px;
+  margin-left: -10px;  
+  width: 430px;
+}
+article .right-block .main-letters {
+  position: relative;
+  color: #fff;
+  font-family: "Courier New";
+  font-size: 40px;
+  text-align: center;
+}
+article .right-block .subletters {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-family: "Courier New";
+  font-size: 25px;
+}
+article .right-block span .pink {
+  text-align: center;
+  background: url(../img/slide-block.png);
+  font-family: "Courier New";
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+}
+article .right-block span .green {
+  height: 38px;
+  text-align: center;
+  background-color: #B0E200;
+  border-radius: 0 0 20px 0;
+  font-family: "Courier New";
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: -10px;
+  padding-top: 5px;
+  transition: 1s;
+}
+article .right-block span a {
+  text-decoration: none;
+  color: #000;
+}
+article .right-block span .green:hover {
+  background-color: #000;
+  color: #B0E200;
+}
 
 
 /*====================footer====================*/
