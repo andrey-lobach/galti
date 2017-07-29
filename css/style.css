@@ -477,9 +477,22 @@ article .right-block span .green:hover {
   color:rgb(62,62,62);
   font-size:13px;
 }
-.aboveForm{
+.aboveForm {
   position:absolute;
   margin-top: 40px;
   margin-left:350px;
 }
-
+.aboveForm form input {
+  margin-bottom: 10px;
+}
+.aboveForm form .submit {
+  position: absolute;
+  margin-top: 3px;
+  margin-left: 226px; 
+  font-family: "Courier New";
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  background: #F560B3;
+}
