@@ -334,10 +334,12 @@ article .right-block span .green:hover {
   font-weight:bold;
   position:absolute;
   margin-left:360px;
+  padding-left:65px;
 }
 .infoLocation {
   width: 360px;
   margin-top:0px;
+  padding-left:60px;
   text-align: left;
   font-weight:bold;
   position:absolute;
@@ -440,3 +442,44 @@ article .right-block span .green:hover {
   background: linear-gradient(to top, white 90%, rgb(233,233,233));
   border: 1px solid rgb(233,233,233);
 }
+.adressBlock{
+  width:220px;
+  height:320px;
+  position: absolute;
+  margin-top:40px;
+  margin-left:30px;
+  text-align: left;
+}
+.contacts h2{
+  font-family:"Courier New";
+  font-size:40px;
+  color:rgb(62,62,62);
+}
+.contacts h3{
+  font-family:"Courier New";
+  font-size:25px;
+  font-weight:bold;
+  color:rgb(62,62,62);
+}
+.contacts h4{
+  font-family:"Courier New";
+  font-size:14px;
+  font-weight:bold;
+  color:rgb(62,62,62);
+}
+.contacts h5{
+  font-family:"Courier New";
+  font-size:18px;
+  color:rgb(62,62,62);
+}
+.contacts p{
+  font-family:"Open Sans";
+  color:rgb(62,62,62);
+  font-size:13px;
+}
+.aboveForm{
+  position:absolute;
+  margin-top: 40px;
+  margin-left:350px;
+}
+
