@@ -316,27 +316,53 @@ article .right-block span .green:hover {
 /*====================footer====================*/
 .footInfo{
   width:1080px;
+  height:300px;
+
   margin:auto;
 }
-.info {
-  display:inline-block;
-  width: 340px;
+.infoTime {
+  width: 360px;
   margin-top:0px;
   text-align: left;
   font-weight:bold;
+  position:absolute;
 }
-.info h5{
+.infoAdress {
+  width: 360px;
+  margin-top:0px;
+  text-align: left;
+  font-weight:bold;
+  position:absolute;
+  margin-left:360px;
+}
+.infoLocation {
+  width: 360px;
+  margin-top:0px;
+  text-align: left;
+  font-weight:bold;
+  position:absolute;
+  margin-left:720px;
+}
+.footInfo h5{
   font-size:15px;
   font-weight:bold;
   color: rgb(242,24,144);
 }
-.social{
-  display:inline-block;
+.socialVk{
+  position: absolute;;
+  margin-left:110px;
 }
-.social img{
+.socialInst{
+  position:absolute;
+  margin-left:80px;
+}
+.footInfo img{
   height:24px;
   width:24px;
-
+}
+.footInfo a{
+  text-decoration: none;
+  color:rgb(62,62,62);
 }
 
 /*====================classes====================*/
