@@ -338,3 +338,79 @@ article .right-block span .green:hover {
   width:24px;
 
 }
+
+/*====================classes====================*/
+.classes{
+  width:1080px;
+  height:550px;
+  margin:auto;
+  background: linear-gradient(to top, white 90%, rgb(233,233,233));
+  border: 1px solid rgb(233,233,233);
+
+}
+.classes img{
+  float:left;
+  margin:30px 20px 20px 20px;
+  border: 10px solid rgb(233,233,233);
+}
+.classes h3{
+  font-family: "Courier New";
+  font-size:40px;
+  text-align:left;
+  padding-top:30px;
+  font-weight:700;
+  color:rgb(62,62,62);
+}
+.classes p{
+  text-align:left;
+  color:rgb(62,62,62);
+}
+
+
+
+/*====================about====================*/
+.about{
+  width:1080px;
+  height:500px;
+  margin:auto;
+  background: linear-gradient(to top, white 90%, rgb(233,233,233));
+  border: 1px solid rgb(233,233,233);
+  text-align: left;
+}
+.about h3{
+  font-family:"Courier New";
+  font-size:40px;
+  margin:30px;
+}
+.about p{
+  margin-left:30px;
+}
+.about button{
+  width:190px;
+  height:50px;
+  border:1px solid rgb(240,240,240);
+  border-radius:3px;
+  background: linear-gradient(to bottom, white 50%, rgb(240,240,240) 50%);
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  margin-top:80px;
+  margin-left:30px;
+}
+.about a{
+  color:rgb(242,24,171);
+  text-decoration:none;
+}
+.about button:hover{
+  background: linear-gradient(to bottom, rgb(242,242,242) 50%, rgb(230,230,230) 50%);
+  color:rgb(161,16,96);
+}
+
+
+
+/*====================contacts====================*/
+.contacts{
+  width:1080px;
+  height:500px;
+  margin:auto;
+  background: linear-gradient(to top, white 90%, rgb(233,233,233));
+  border: 1px solid rgb(233,233,233);
+}
