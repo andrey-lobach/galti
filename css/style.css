@@ -127,14 +127,14 @@ nav button:hover {
   background: url(../img/slide-block.png);
   margin: 0;
   font-family: "Courier New";
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 500;
   color: #fff;
   padding: 5px 5px 5px 15px;
 }
 #carousel-example-generic .slide-block span img {
   position: absolute;
-  margin-left: -422px; 
+  margin-left: -505px; 
 }
 #carousel-example-generic .carousel-control:hover,
 #carousel-example-generic .carousel-control {
@@ -156,7 +156,7 @@ article div {
 }
 article .left-block {
   position: relative;
-  margin-left: 5px;
+  margin-left: 10px;
   margin-top: 5px;
   border: 10px solid #ccc;
   border-radius: 0 0 20px 0;
@@ -167,7 +167,7 @@ article .left-block {
 }
 article .left-block span{
   position: absolute;
-  margin-top: 260px;
+  margin-top: 259px;
   margin-left: -10px;  
   width: 350px;
 }
@@ -208,20 +208,20 @@ article .left-block span .green:hover {
 /*CENTER*/
 article .center-block {
   position: absolute;
-  margin-left: 360px;
+  margin-left: 365px;
   margin-top: -398px;
   border: 10px solid #ccc;
   border-radius: 0 0 20px 0;
   outline-offset: -10px; 
-  width: 280px;
+  width: 350px;
   height: 435px;
   background: url(../img/center-block.jpg);
 }
 article .center-block span{
   position: absolute;
-  margin-top: 345px;
+  margin-top: 344px;
   margin-left: -10px;  
-  width: 280px;
+  width: 350px;
 }
 article .center-block span .pink {
   text-align: center;
@@ -237,10 +237,10 @@ article .center-block span .green {
   background-color: #B0E200;
   border-radius: 0 0 20px 0;
   font-family: "Courier New";
-  font-size: 20px;
+  font-size: 25px;
   margin-left: 10px;
   margin-top: -10px;
-  padding-top: 5px;
+  padding-top: 2px;
   transition: 1s;
 }
 article .center-block span a {
@@ -254,20 +254,20 @@ article .center-block span .green:hover {
 /*RIGHT*/
 article .right-block {
   position: absolute;
-  margin-left: 290px;
+  margin-left: 360px;
   margin-top: 5px;
   border: 10px solid #ccc;
   border-radius: 0 0 20px 0;
   outline-offset: -10px; 
-  width: 430px;
-  height: 500px;
+  width: 350px;
+  height: 475px;
   background-color: #B0E200;
 }
 article .right-block span{
   position: absolute;
-  margin-top: 57px;
+  margin-top: 200px;
   margin-left: -10px;  
-  width: 430px;
+  width: 350px;
 }
 article .right-block .main-letters {
   position: relative;
@@ -277,11 +277,13 @@ article .right-block .main-letters {
   text-align: center;
 }
 article .right-block .subletters {
-  position: relative;
+  position: absolute;
   text-align: center;
   color: #fff;
   font-family: "Courier New";
   font-size: 25px;
+  margin-top: 20px;
+  padding: 10px;
 }
 article .right-block span .pink {
   text-align: center;
@@ -297,10 +299,10 @@ article .right-block span .green {
   background-color: #B0E200;
   border-radius: 0 0 20px 0;
   font-family: "Courier New";
-  font-size: 20px;
+  font-size: 25px;
   margin-left: 10px;
   margin-top: -10px;
-  padding-top: 5px;
+  padding-top: 3px;
   transition: 1s;
 }
 article .right-block span a {
