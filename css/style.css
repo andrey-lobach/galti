@@ -319,9 +319,9 @@ article .right-block span .green:hover {
 .footInfo{
   width:1080px;
   height:300px;
-
   margin:auto;
 }
+
 .infoTime {
   width: 360px;
   margin-top:0px;
@@ -355,10 +355,12 @@ article .right-block span .green:hover {
 .socialVk{
   position: absolute;;
   margin-left:110px;
+  margin-top:30px;
 }
 .socialInst{
   position:absolute;
   margin-left:80px;
+  margin-top:30px;
 }
 .footInfo img{
   height:24px;
@@ -366,7 +368,14 @@ article .right-block span .green:hover {
 }
 .footInfo a{
   text-decoration: none;
-  color:rgb(62,62,62);
+  color:rgb(51,51,51);
+}
+.foot-tel1 p{
+  margin-bottom:0;
+}
+.foot-tel2 {
+  position: absolute;
+  margin-left:35px;
 }
 
 /*====================classes====================*/
@@ -478,6 +487,18 @@ article .right-block span .green:hover {
   font-family:"Open Sans";
   color:rgb(62,62,62);
   font-size:13px;
+}
+.tel1{
+  margin-bottom:0;
+}
+.tel2{
+  margin-left:32px;
+}
+.email1{
+  margin-bottom:0;
+}
+.email2{
+  margin-left:40px;
 }
 .aboveForm {
   position:absolute;
