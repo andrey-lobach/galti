@@ -20,8 +20,7 @@ if((isset($_POST['name'])&&$_POST['name']!="")&&
                 </html>';
 
   $headers  = "Content-type: text/html; charset=utf-8 \r\n";
-  $headers .= "From: "$email" \r\n";
   mail($to, $subject, $message, $headers);
 }
-
+header( 'Refresh: 1; url=http://galti.by/contacts.html' );
 ?>

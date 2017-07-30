@@ -496,3 +496,15 @@ article .right-block span .green:hover {
   border: none;
   background: #F560B3;
 }
+@media only screen and (max-width: 481px) { 
+#carousel-example-generic { 
+visibility: hidden ;
+margin-top: -200px; 
+} 
+header .header-left .main-below { 
+font-size: 5px; 
+} 
+header .header-left .submain { 
+font-size: 15px; 
+} 
+}
