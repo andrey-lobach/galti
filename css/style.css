@@ -114,7 +114,7 @@ nav button:hover {
 /*====================slider====================*/
 #carousel-example-generic {
   margin: auto;
-  max-width: 1080px;
+  width: 1080px;
 }
 .carousel-inner img {
   margin: auto;
@@ -520,15 +520,27 @@ article .right-block span .green:hover {
   border: none;
   background: #F560B3;
 }
-@media only screen and (max-width: 481px) { 
-#carousel-example-generic { 
-visibility: hidden ;
-margin-top: -200px; 
-} 
-header .header-left .main-below { 
-font-size: 5px; 
-} 
-header .header-left .submain { 
-font-size: 15px; 
-} 
+
+@media only screen and (max-width: 661px) {
+  header .header-left .main-text {
+    font-family: 'Marck Script', cursive;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  header .header-left .main-text span {
+    letter-spacing: 8px;
+  }
+  header .header-left .main-text a {
+    text-decoration: none;
+    color: #000;
+  }
+  header .header-left .main-below {
+    font-family: 'Marck Script', cursive;
+    font-size: 28px;
+    margin-top: -10px; 
+  }
+  header .header-left .submain {
+    font-size: 15px;
+    color: #F664DC;
+  }
 }
