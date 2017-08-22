@@ -217,6 +217,7 @@ article .center-block {
   width: 350px;
   height: 435px;
   background: url(../img/center-block.jpg);
+  background-repeat: no-repeat;
 }
 article .center-block span{
   position: absolute;
